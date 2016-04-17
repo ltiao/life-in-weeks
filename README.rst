@@ -16,6 +16,9 @@ Life in Weeks
 This is your life, and it's ending one week at a time.
 
 
+.. image:: life-in-weeks.gif
+
+
     Every third thought shall be my grave. 
 
     -- Shakespeare (The Tempest)

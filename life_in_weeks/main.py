@@ -79,6 +79,11 @@ def main(birth_date, expected_years, row_label, row_label_period, highlight_date
 
     curr_date = date.today()
 
+    with click.progressbar(range(1, 53), label='{}/52 weeks of year'.format(yweek(curr_date))) as bar:
+        for i in bar:
+            if i == yweek(curr_date):
+                break
+
     # ensures that the formatting won't break for those who are alive
     # between 9999 and 10000 A.D. and still using this for some reason
     max_year_width = len(str(expected_death_year)) + 1
