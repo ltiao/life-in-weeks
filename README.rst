@@ -16,7 +16,7 @@ Life in Weeks
 This is your life, and it's ending one week at a time.
 
 
-.. image:: life-in-weeks.gif
+.. image:: https://raw.githubusercontent.com/ltiao/life-in-weeks/master/life-in-weeks.gif
 
 
     Every third thought shall be my grave. 
