@@ -2,31 +2,20 @@
 Life in Weeks
 =============
 
-.. image:: https://img.shields.io/pypi/v/life_in_weeks.svg
-        :target: https://pypi.python.org/pypi/life_in_weeks
-
 .. image:: https://img.shields.io/travis/ltiao/life_in_weeks.svg
-        :target: https://travis-ci.org/ltiao/life_in_weeks
-
-.. image:: https://readthedocs.org/projects/life_in_weeks/badge/?version=latest
-        :target: https://readthedocs.org/projects/life_in_weeks/?badge=latest
-        :alt: Documentation Status
-
+   :target: https://travis-ci.org/ltiao/life_in_weeks
 
 This is your life, and it's ending one week at a time.
 
+.. image:: https://raw.githubusercontent.com/ltiao/life-in-weeks/master/life-in-weeks.png
+   :align: center
 
-.. image:: https://raw.githubusercontent.com/ltiao/life-in-weeks/master/life-in-weeks.gif
-
-
-Every third thought shall be my grave. 
-
--- Shakespeare (The Tempest)
 
 TODO
 ----
 
 * Option for `Click Pager Support`_
+* Progress bar for week of year and total weeks
 * PEP8 Compliance
 * Python 2.7 Support
 * Unit tests
