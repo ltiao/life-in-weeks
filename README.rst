@@ -23,7 +23,7 @@ This is your life, and it's ending one week at a time.
 TODO
 ----
 
-* Option for [Click Pager Support](http://click.pocoo.org/5/utils/#pager-support)
+* Option for `Click Pager Support`_
 * PEP8 Compliance
 * Python 2.7 Support
 * Unit tests
@@ -35,3 +35,4 @@ This package was initialized with Cookiecutter_ and the `audreyr/cookiecutter-py
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+.. _Click Pager Support: http://click.pocoo.org/5/utils/#pager-support
