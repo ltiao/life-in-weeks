@@ -65,12 +65,12 @@ yweek = lambda d: timedelta(days=d.timetuple().tm_yday) // timedelta(weeks=1)
               type=int,
               default=5,
               help='Show label after every duration')
-@click.option('--highlight-dates',
+@click.option('--highlight-date',
               '-h',
               multiple=True,
               type=Date(),
               help='Dates to highlight')
-def main(birth_date, expected_years, row_label, row_label_period, highlight_dates):
+def main(birth_date, expected_years, row_label, row_label_period, highlight_date):
 
     expected_death_date = birth_date + relativedelta(years=expected_years)
 
@@ -92,7 +92,7 @@ def main(birth_date, expected_years, row_label, row_label_period, highlight_date
 
     # Normalize set of dates to highlight (using set for constant time lookup)
     highlight_set = set(date(d.year, 1, 1) + timedelta(weeks=yweek(d))
-                        for d in highlight_dates)
+                        for d in highlight_date)
 
     for year in range(birth_year, expected_death_year + 1):
 

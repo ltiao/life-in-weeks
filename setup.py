@@ -15,7 +15,8 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    # TODO: put package requirements here
+    'click',
+    'python-dateutil'
 ]
 
 test_requirements = [
@@ -29,21 +30,26 @@ setup(
     long_description=readme + '\n\n' + history,
     author="Louis Tiao",
     author_email='louistiao@gmail.com',
-    url='https://github.com/ltiao/life_in_weeks',
+    url='https://github.com/ltiao/life-in-weeks',
     packages=[
         'life_in_weeks',
     ],
     package_dir={'life_in_weeks':
                  'life_in_weeks'},
+    entry_points={
+        'console_scripts': [
+            'life-in-weeks = life_in_weeks.main:main'
+        ]
+    },
     include_package_data=True,
     install_requires=requirements,
-    license="ISCL",
+    license="MIT",
     zip_safe=False,
     keywords='life_in_weeks',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: ISC License (ISCL)',
+        'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         "Programming Language :: Python :: 2",
         'Programming Language :: Python :: 2.6',
