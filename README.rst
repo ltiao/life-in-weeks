@@ -19,9 +19,9 @@ This is your life, and it's ending one week at a time.
 .. image:: https://raw.githubusercontent.com/ltiao/life-in-weeks/master/life-in-weeks.gif
 
 
-    Every third thought shall be my grave. 
+Every third thought shall be my grave. 
 
-    -- Shakespeare (The Tempest)
+-- Shakespeare (The Tempest)
 
 TODO
 ----
